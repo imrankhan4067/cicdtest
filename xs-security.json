@@ -16,5 +16,13 @@
         "uaa.user"
       ]
     }
-  ]
+  ],
+  "oauth2-configuration": {
+    "token-validity": 86400,
+    "refresh-token-validity": 2592000,
+    "redirect-uris": [
+      "https://*.us10-001.hana.ondemand.com/login/callback"
+      
+    ]
+  }
 }
